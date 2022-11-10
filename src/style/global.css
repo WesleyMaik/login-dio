@@ -1,0 +1,20 @@
+:root {
+  --primary-color: rgb(134, 71, 173);
+  --secundary-color: rgb(86, 86, 86);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", "Arial", "Tahoma";
+}
+
+button:disabled {
+  opacity: 50%;
+}
